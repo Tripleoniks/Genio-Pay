@@ -1,0 +1,92 @@
+
+    .wallet-search{
+        background-color: #ffffff;
+        width: 406px;
+        height: 429px;
+        color:   #2B4146;
+        font-size: 16px;
+    .wallet-row{
+        display: flex;
+        justify-content: space-between;
+    .wallet-input-div{
+        margin: .5rem;
+        #wallet-input{
+            width: 272px;
+            height: 53px;
+            border-radius: 16px;
+            border: 1px solid #AAC0C5;
+            position: relative;  
+            padding-left: 32px;
+            font-size: 16px;
+        }
+        :focus{
+            outline: none;
+        }
+        .fa-search{
+            position: absolute;
+             transform: translate(10px,20px);
+             z-index: 5;
+             color: #55676B;
+        }
+        }
+        & select{
+            border: none;
+            margin-right: .5rem;
+            font-size: 16px;
+            color: #017189;
+            outline: none;
+            cursor: pointer;
+        }      
+  }
+  .active-inactive-close{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1rem .5rem .5rem;
+      a{
+          text-decoration: none;
+          color: #017189;
+          &:active{
+            border-bottom: #017189;
+        }
+      }
+  }
+}
+
+.wallet-card{
+    display: flex;
+    flex-direction: column;
+    .wallet-card-details{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .5rem;
+        padding: 0  1rem;
+        .wallet-card-details-left{
+            display: flex;
+            align-items: center;
+            img{
+                border-radius: 50%;
+                margin-right: .5rem;
+            }
+        }
+        .wallet-card-details-right{
+    
+    
+            span{
+                float: right;
+                margin-top: -1rem;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+.wallet-card-details:nth-child(1){
+    background-color:  #EEF7F9;
+    border-radius: 8px;
+}
+#wallet-input::placeholder{
+    font-size: 14px;
+    color: #AAB3B5;
+}

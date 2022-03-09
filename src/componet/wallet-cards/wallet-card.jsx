@@ -13,7 +13,7 @@ const WalletCard = () => {
             {walletInfo.map(
                 ({accountType,accounCurrency,amountAvailable,background,icon}, index) => {
                     return(
-                        <div className="wallet-details" style={{backgroundColor: `${background}`}}>
+                        <div className="wallet-details" style={{backgroundColor: `${background}`}} key={index}>
                             <div className="wallet-left">
                                 <p>{accountType}</p>
                                 <p>{accounCurrency}</p>

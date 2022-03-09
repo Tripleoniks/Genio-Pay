@@ -7,7 +7,7 @@ import "./dashboard.scss";
 
 const Dashboard = () => {
     return ( 
-        <div className="main">
+        <div className="dashboard-main">
             <WalletCard/>
             <QuickLinks/>
             <Chart/>

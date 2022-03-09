@@ -1,0 +1,31 @@
+.main{
+    width: 1061px;
+    margin: 0 auto;
+    padding: 1rem;
+    .wallet-text-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h5{
+            font-size: 21px;
+            font-weight: 600;
+        }
+        button{
+            background-color: #017189;
+            border: none;
+            color: #ffffff;
+            width: 207px;
+            height: 56px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            i{
+                margin-right: .5rem;
+            }
+        }
+    }
+}
+.wallet-body{
+    display: flex;
+    gap: 1.5rem;
+}

@@ -27,3 +27,26 @@ export const walletInfo = [
     },
 ]
 
+export const walletInfo2 = [
+    {
+        accountType: "EUR Wallet",
+        accounCurrency: "EUR",
+        amountAvailable: "€2,000,000.50",
+        background: "#FBF1F0",
+        icon: eurLogo
+    },
+    {
+        accountType: "Personal account",
+        accounCurrency: "USD",
+        amountAvailable: "$10,250.00",
+        background: "#FFF6E6",
+        icon: usaLogo 
+    },
+    {
+        accountType: "School fees",
+        accounCurrency: "GBP",
+        amountAvailable: "£500.00",
+        background: "#DDECEF",
+        icon: gbpLogo
+    },
+]
