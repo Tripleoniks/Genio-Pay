@@ -3,6 +3,7 @@ import {BrowserRouter as Router,Routes,Route,Link,BrowserRouter} from "react-rou
 import './App.scss';
 import Dashboard from "./Pages/dashboard/dashboard";
 import Wallet from "./Pages/wallet/wallet";
+import Sidebar from "./componet/sidebar/sidebar";
 
 
 
@@ -12,10 +13,10 @@ function App() {
       <div className="App">
         <div className="row">
           <div className="left">
+          <Sidebar/>
           </div>
           <div className="right">
             <div className="navbar">
-
             </div>
               <Routes>
               <Route path="/dashboard" element={<Dashboard/>}/>
