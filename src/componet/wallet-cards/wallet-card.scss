@@ -1,0 +1,48 @@
+.wallet-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h5{
+        font-size: 21px;
+    }
+    button{
+        color: #017189;
+        font-size: 16px;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+}
+.wallet-info{
+       
+    display: flex;
+    justify-content: space-between;
+    .wallet-details{
+        width: 332px;
+        height: 164px; 
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+        .wallet-left{
+            padding-left: 24px;
+            padding-top: 24px;
+            :nth-child(1){
+               font-size: 16px;
+               margin-bottom: -.5rem;
+            }
+            :nth-child(2){
+                font-size: 14px;
+            }
+            :nth-child(3){
+                font-size: 28px;
+                font-weight: 700;
+            }
+        }
+        .wallet-right{
+            padding: 25px 21px 0 0;
+          img{
+              border-radius: 50%;
+          }
+        }
+    }
+}

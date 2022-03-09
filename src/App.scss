@@ -1,0 +1,24 @@
+.app{
+    margin: 0 auto;
+}
+.row{
+display: flex;
+.left{
+    background-color: #017189;
+    width: 316px ;
+  }
+  
+  .right{
+    background-color: #FCFDFE;
+    width: 1125px;
+
+    .navbar{
+        height: 93px;
+    }
+  }
+
+}
+
+
+
+
