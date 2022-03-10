@@ -4,6 +4,7 @@ import './App.scss';
 import Dashboard from "./Pages/dashboard/dashboard";
 import Wallet from "./Pages/wallet/wallet";
 import Sidebar from "./componet/sidebar/sidebar";
+import Navbar from "./componet/navbar/navbar";
 
 
 
@@ -16,8 +17,7 @@ function App() {
           <Sidebar/>
           </div>
           <div className="right">
-            <div className="navbar">
-            </div>
+              <Navbar/>
               <Switch>
               <Route path="/dashboard" component={Dashboard}/>
               <Route path="/wallet" component={Wallet}/>
