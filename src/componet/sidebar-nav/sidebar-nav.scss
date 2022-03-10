@@ -1,0 +1,35 @@
+.sidebar-nav{
+    width: 246px;
+    height: 341px;
+    margin: 0 auto;
+    ul{
+   
+        li{
+            list-style: none;
+            margin: -1.5rem 0 20px -2.5rem;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+                display: block;
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                width: 246px;
+                height: 57px;
+                &:hover{
+                    background-color: #ffffff;
+                    color: #017189;
+                    border-radius: 8px;
+                }
+                i{
+                    padding: 1rem;
+                }
+            }
+           
+        }
+    }
+}

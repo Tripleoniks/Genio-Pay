@@ -10,7 +10,7 @@ const Wallet = () => {
         <div className="main">
          <div className="wallet-text-header">
              <h5>Your Wallet (s) </h5>
-             <button><i className="fa-solid fa-plus"></i>Create New Wallet</button>
+             <button><i className="fa-solid fa-plus"></i> Create New Wallet</button>
          </div>
          <div className="wallet-body">
              <WalletSearch/>
