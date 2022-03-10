@@ -1,24 +1,27 @@
-.chart{
+.chart {
+  .chart-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-.chart-header-left{
+  }
+
+  .chart-header-left {
     display: flex;
-    h5{
-        font-size: 21px;
+    h5 {
+      font-size: 21px;
     }
-    select{
-        border: none;
-        margin-left: 2rem;
-        color: #017189;
-        outline: none;
+    select {
+      border: none;
+      margin-left: 2rem;
+      color: #017189;
+      outline: none;
     }
-}
-    button{
-        color: #017189;
-        font-size: 16px;
-        border: none;
-        background: none;
-        cursor: pointer;
-    }
+  }
+  button {
+    color: #017189;
+    font-size: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
 }

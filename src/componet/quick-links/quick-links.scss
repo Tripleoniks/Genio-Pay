@@ -9,8 +9,12 @@
     }
     .link-container{
         display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
         .links-box{
-            width: 120px;
+            flex: 1 1 100px;
             height: 131px;
             background: #ffffff;
             border: 1px solid #F1F5F9;

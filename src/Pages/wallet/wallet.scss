@@ -1,6 +1,9 @@
 .main{
-    width: 1061px;
-    margin: 0 auto;
+    // width: 1061px;
+    // width: 100%;
+    margin-left: 316px;
+    height: 38vw;
+    // margin: 0 auto;
     padding: 1rem;
     .wallet-text-header{
         display: flex;
@@ -27,5 +30,6 @@
 }
 .wallet-body{
     display: flex;
+    justify-content: space-between;
     gap: 1.5rem;
 }

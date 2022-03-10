@@ -8,7 +8,7 @@ const SidebarNav = () => {
     return ( 
         <div className="sidebar-nav">
             <ul>
-                <li> <Link to="/dashboard"><i className="fa-solid fa-grip"></i> Dashboard</Link> </li>
+                <li> <Link to="/"><i className="fa-solid fa-grip"></i> Dashboard</Link> </li>
                 <li><Link to="/wallet"><i className="fa-solid fa-wallet"></i> Wallet</Link></li>
                 <li><Link><i className="fa-regular fa-credit-card"></i>Cards</Link></li>
                 <li><Link><i className="fa-solid fa-money-check-dollar"></i>FX Centre</Link></li>

@@ -1,6 +1,8 @@
 .sidebar{
     width: 316px ;
     height: 100%;
+    position: fixed;
+    z-index: 2;
     background-color: #017189;
     .logo{
         padding: 32px 64px 0;
@@ -9,3 +11,9 @@
        }
     }
 }
+
+// @media screen and (max-width: 720px) {
+//     .sidebar {
+//         display: none;
+//     }
+// }

@@ -19,7 +19,7 @@ function App() {
           <div className="right">
               <Navbar/>
               <Switch>
-              <Route path="/dashboard" component={Dashboard}/>
+              <Route  exact path="/" component={Dashboard}/>
               <Route path="/wallet" component={Wallet}/>
               </Switch>
           </div>

@@ -1,6 +1,7 @@
 import "./wallet-active.scss"
 import payment from "../../images/payment.svg"
 import Received from "../../images/Received.svg"
+import Chart from "../chart/chart"
 
 
 const WalletActive = () => {
@@ -47,6 +48,7 @@ const WalletActive = () => {
                 </select>
             </div>
 
+            <Chart />
         </div>
      );
 }
